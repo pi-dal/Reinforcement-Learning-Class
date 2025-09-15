@@ -2,9 +2,6 @@ import numpy
 import gymnasium as gym
 from gymnasium import spaces
 
-if not hasattr(numpy, "bool8"):
-    numpy.bool8 = numpy.bool_
-
 class GridWorldEnv(gym.Env):
     metadata = {"render_modes": ["human", "ansi"], "render_fps": 4}
 
