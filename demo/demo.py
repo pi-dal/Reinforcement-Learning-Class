@@ -1,4 +1,4 @@
-import gym
+import gymnasium as gym
 import reinforcement_learning_class.env
 
 def main():

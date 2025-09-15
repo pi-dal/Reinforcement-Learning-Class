@@ -1,11 +1,11 @@
 [project]
 name = "Reinforcement-Learning-Class"
 version = "0.1.0"
-description = "A minimal repo that create the gridworld with gym"
+description = "A minimal repo that creates the gridworld with Gymnasium"
 authors = [
     {name = "ligy75", email = "ligy75@mail2.sysu.edu.cn"},
 ]
-dependencies = ["gym>=0.26.2"]
+dependencies = ["gymnasium>=0.28"]
 requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
